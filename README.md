@@ -29,7 +29,7 @@ This repository includes full source code, benchmark data, experiment scripts, a
 - **TestRCbssEffAblationStudy.py** – Executes ablation experiments.  
 - **TestRCbssEffScalability.py** – Executes scalability experiments.  
 - **TestRCbssEffVsRCbssBase.py** – Compares RCbssEff and RCbssBase performance.  
-- **createMap.py** – Generates agent and goal configurations for maps.  
+- **GenerateInstances.py** – Generates agent and goal configurations for maps.  
 - **FindConflict.py** – Detects conflicts between agents’ paths.  
 - **LowLevelPlan.py** – Computes individual agent paths under constraints.  
 - **NodeStateConstClasses.py** – Defines data structures for nodes, states, and constraints.  
