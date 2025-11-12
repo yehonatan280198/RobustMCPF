@@ -36,7 +36,7 @@ This repository includes full source code, benchmark data, experiment scripts, a
 - **Verify.py** – Verifies solution robustness using simulations.  
 - **kBestSequencing.py** – K‑best‑Sequencing algorithm using TSP.  
 - **kBestSequencingWithGLKH.py** – K‑best‑Sequencing algorithm using E‑GTSP.  
-- **AAAI‑2026_technicalAppendix.pdf** – Technical appendix with proofs and supplementary results.  
+- **Technical Appendix.pdf** – Technical appendix with proofs and supplementary results.  
 
 ---
 
