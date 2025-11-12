@@ -12,7 +12,7 @@ It implements the **Robust CBSS framework**, including both algorithms presented
 
 The framework extends the **Conflict‑Based Steiner Search (CBSS)** to support:
 - **Dynamic goal allocation** with K‑best‑Sequencing  
-- **Orientation‑aware kinematic constraints**  
+- **Orientation‑aware constraints**  
 - **Probabilistic robustness** against stochastic execution delays (p‑Robust CBS)  
 
 This repository includes full source code, benchmark data, experiment scripts, and a technical appendix to enable **full reproducibility** of the results presented in the paper.
