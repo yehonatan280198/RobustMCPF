@@ -7,8 +7,8 @@
 ---
 
 It implements the **Robust CBSS framework**, including both algorithms presented in the paper:
-- **RCbssBase** – a baseline algorithm using TSP‑based allocation  
-- **RCbssEff** – an improved and efficient variant using orientation‑aware E‑GTSP allocation  
+- **RCbssBase** – a baseline algorithm using TSP‑based allocation.
+- **RCbssEff** – an improved and efficient variant using orientation‑aware E‑GTSP allocation.
 
 The framework extends the **Conflict‑Based Steiner Search (CBSS)** to support:
 - **Dynamic goal allocation** with K‑best‑Sequencing  
