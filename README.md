@@ -1,10 +1,15 @@
-# Robust Multi-Agent Combinatorial Path Finding
+# Robust Multi-Agent Combinatorial Path Finding 
 
-This repository contains the official code accompanying the paper  
-**"Robust Multi-Agent Combinatorial Path Finding"**,  
-accepted for publication at **AAAI-2026**.
+### Official code for the paper  
+## **"Robust Multi-Agent Combinatorial Path Finding"**  
+### Accepted for publication at **AAAI-2026**
 
-**Authors:** Yehonatan Kidushim, Avraham Natan, Roni Stern, and Meir Kalech 
+---
+
+### Authors  
+**Yehonatan Kidushim**, **Avraham Natan**, **Roni Stern**, **Meir Kalech**  
+
+---
 
 It implements the **Robust CBSS framework**, including both algorithms presented in the paper:
 - **RCbssBase** – a baseline algorithm using TSP‑based allocation  
