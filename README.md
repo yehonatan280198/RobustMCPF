@@ -1,11 +1,14 @@
-# Robust Multi‑Agent Combinatorial Path Finding
+# Robust Multi-Agent Combinatorial Path Finding  
 
-This repository contains the official code accompanying the AAAI‑2026 submission:  
-> **Robust Multi‑Agent Combinatorial Path Finding**
+### Official code for the paper **"Robust Multi-Agent Combinatorial Path Finding"** accepted for publication at **AAAI-2026**
+
+### **Authors:** Yehonatan Kidushim, Avraham Natan, Roni Stern, Meir Kalech  
+
+---
 
 It implements the **Robust CBSS framework**, including both algorithms presented in the paper:
-- **RCbssBase** – a baseline algorithm using TSP‑based allocation  
-- **RCbssEff** – an improved and efficient variant using orientation‑aware E‑GTSP allocation  
+- **RCbssBase** – a baseline algorithm using TSP‑based allocation.
+- **RCbssEff** – an improved and efficient variant using orientation‑aware E‑GTSP allocation.
 
 The framework extends the **Conflict‑Based Steiner Search (CBSS)** to support:
 - **Dynamic goal allocation** with K‑best‑Sequencing  
@@ -26,14 +29,14 @@ This repository includes full source code, benchmark data, experiment scripts, a
 - **TestRCbssEffAblationStudy.py** – Executes ablation experiments.  
 - **TestRCbssEffScalability.py** – Executes scalability experiments.  
 - **TestRCbssEffVsRCbssBase.py** – Compares RCbssEff and RCbssBase performance.  
-- **createMap.py** – Generates agent and goal configurations for maps.  
+- **GenerateInstances.py** – Generates agent and goal configurations for maps.  
 - **FindConflict.py** – Detects conflicts between agents’ paths.  
 - **LowLevelPlan.py** – Computes individual agent paths under constraints.  
 - **NodeStateConstClasses.py** – Defines data structures for nodes, states, and constraints.  
 - **Verify.py** – Verifies solution robustness using simulations.  
 - **kBestSequencing.py** – K‑best‑Sequencing algorithm using TSP.  
 - **kBestSequencingWithGLKH.py** – K‑best‑Sequencing algorithm using E‑GTSP.  
-- **AAAI‑2026_technicalAppendix.pdf** – Technical appendix with proofs and supplementary results.  
+- **Technical Appendix.pdf** – Technical appendix with proofs and supplementary results.  
 
 ---
 
