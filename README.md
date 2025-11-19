@@ -1,4 +1,4 @@
-# Robust Multi-Agent Combinatorial Path Finding  
+# Robust Multiagent Combinatorial Path Finding
 
 ### Official code for the paper **"Robust Multi-Agent Combinatorial Path Finding"** accepted for publication at **AAAI-2026**
 
