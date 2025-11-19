@@ -1,6 +1,6 @@
 # Robust Multiagent Combinatorial Path Finding
 
-### Official code for the paper **"Robust Multi-Agent Combinatorial Path Finding"** accepted for publication at **AAAI-2026**
+### Official code for the paper **"Robust Multiagent Combinatorial Path Finding"** accepted for publication at **AAAI-2026**
 
 ### **Authors:** Yehonatan Kidushim, Avraham Natan, Roni Stern, Meir Kalech  
 
