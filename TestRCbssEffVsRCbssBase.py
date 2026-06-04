@@ -83,14 +83,14 @@ def run_Test(queue, Positions, GoalLocations, DelaysProbDict, CurrAlgorithm):
 def run_instances():
     delaysProbDict = {i: CurrDelaysProb for i in range(CurrNumAgents)}
     curr_cache_successes = {
-        ("RobustCbss", (CurrDelaysProb, CurrNumAgents, CurrNumGoals)): 0,
+        ("RCbssEff", (CurrDelaysProb, CurrNumAgents, CurrNumGoals)): 0,
         ("RCbssBase", (CurrDelaysProb, CurrNumAgents, CurrNumGoals)): 0
     }
 
     for instance in range(instances):
         AgentsPositions, GoalsLocations = read_locs_from_file(instance)
 
-        for CurrAlgorithm in ["RobustCbss", "RCbssBase"]:
+        for CurrAlgorithm in ["RCbssEff", "RCbssBase"]:
 
             if not checkIfNeedRunThisTest(CurrAlgorithm):
                 addRecordToCsv(instance, CurrAlgorithm, None, None, None, None, None)
@@ -125,7 +125,7 @@ def run_instances():
             curr_cache_successes[(CurrAlgorithm, (CurrDelaysProb, CurrNumAgents, CurrNumGoals))] += 1
             addRecordToCsv(instance, CurrAlgorithm, runtime, CallToEGTSP, CallToLowLevel, Roots, ResolvedConflicts)
 
-    cache_successes[("RobustCbss", (CurrDelaysProb, CurrNumAgents, CurrNumGoals))] = curr_cache_successes[("RobustCbss", (CurrDelaysProb, CurrNumAgents, CurrNumGoals))]
+    cache_successes[("RCbssEff", (CurrDelaysProb, CurrNumAgents, CurrNumGoals))] = curr_cache_successes[("RCbssEff", (CurrDelaysProb, CurrNumAgents, CurrNumGoals))]
     cache_successes[("RCbssBase", (CurrDelaysProb, CurrNumAgents, CurrNumGoals))] = curr_cache_successes[("RCbssBase", (CurrDelaysProb, CurrNumAgents, CurrNumGoals))]
 
 
